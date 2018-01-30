@@ -11,17 +11,17 @@ namespace ArrayCountElement
         static void Main(string[] args)
         {
             int i;
-            int[] array = new int[30];
-            int length = array.Length;
+            int[] arrListStudents = new int[30];
+            int length = arrListStudents.Length;
             int count = 0;
             Console.WriteLine("Enter the student's score:");
             for (i = 0; i < length; i++)
             {
                 //In ra màn hình danh sách điểm số của sinh viên
                 Console.Write("Student[{0}]: ", i);
-                array[i] = Convert.ToInt32(Console.ReadLine());
+                arrListStudents[i] = Convert.ToInt32(Console.ReadLine());
                 //Kiểm tra những sinh viên nào có điểm lơn hơn hoặc bằng 5 sẽ lưu vào biến đếm
-                if (array[i] >= 5)
+                if (arrListStudents[i] >= 5)
                 {
                     count++;
                 }
