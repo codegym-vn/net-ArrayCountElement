@@ -14,7 +14,7 @@ namespace ArrayCountElement
             int[] arrListStudents = new int[30];
             int length = arrListStudents.Length;
             int count = 0;
-            Console.WriteLine("Enter the student's score:");
+            Console.WriteLine("Enter the student's score: ");
             for (i = 0; i < length; i++)
             {
                 //In ra màn hình danh sách điểm số của sinh viên
